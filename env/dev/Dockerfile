@@ -2,7 +2,7 @@ FROM klakegg/hugo:0.93.2-debian
 
 # add dev tools
 RUN apt-get update && \
-    apt-get install vim sudo bash-completion -y
+    apt-get install git vim sudo bash-completion -y
 
 # add dev user
 RUN useradd -m dev && echo "dev:dev" | chpasswd && adduser dev sudo
