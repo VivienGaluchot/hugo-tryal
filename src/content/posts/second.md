@@ -1,12 +1,12 @@
 ---
-title: "Hello world !"
-date: 2022-05-27T21:08:11Z
-slug: "hello-world"
+title: "Second article"
+date: 2022-05-27T22:55:09Z
+slug: "second-world"
 draft: false
 tags: ["dummy"]
 ---
 
-This is a first post.
+This is a second post.
 
 Indeed.
 
