@@ -1,0 +1,13 @@
+baseURL: 'http://example.org/'
+languageCode: 'en-us'
+title: 'Hugo tryal'
+theme: 'PaperMod'
+outputs:
+    home:
+        - HTML
+        - RSS
+        - JSON
+params:
+    ShowShareButtons: true
+    ShowReadingTime: true
+    ShowBreadCrumbs: true
