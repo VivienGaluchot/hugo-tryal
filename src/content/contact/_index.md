@@ -2,8 +2,10 @@
 title: "Contact"
 menu:
   main:
-    title: "Contact page"
-    weight: -100
+    title: "Contact"
+    weight: 100
 ---
 
-Page de contact
+Page de contact !
+
+Rien de special ici.
