@@ -1,0 +1,14 @@
+<div class="card stretched-card">
+    <div class="card-body">
+        <div class="row">
+            <div class="col"><h5 class="card-title">{{ .Title }}</h5></div>
+            <div class="col-auto text-muted fw-lighter">
+                {{ .Date.Format "02/01/2006" }} | 
+                <i class="fa-regular fa-clock"></i> {{ .ReadingTime }} min
+            </div>
+        </div>
+        <h6 class="card-subtitle mb-2 text-muted">{{ .Params.subtitle }}</h6>
+        <p class="card-text">{{ .Summary }}</p>
+        <a class="card-link stretched-link" href="{{ .Permalink }}">See more</a>
+    </div>
+</div>

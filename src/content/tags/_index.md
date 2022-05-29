@@ -2,6 +2,7 @@
 title: "Tags"
 menu:
   main:
-    title: "Tags"
     weight: 100
 ---
+
+List of page tags

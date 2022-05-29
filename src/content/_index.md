@@ -9,5 +9,6 @@ The goal is to try to create a custom theme and a website with the hugo static w
 Todo list:
 - curstom tags template
 - research function
-- remove home page from breadcrumbs
+- humanize times with js
 - page order in menu
+- category link menu

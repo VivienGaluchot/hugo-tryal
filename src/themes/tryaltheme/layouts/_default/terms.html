@@ -11,9 +11,7 @@
     </div>
     <div class="my-5">
         {{ range .Pages }}
-        <div class="my-3">
-            {{ partial  "card_summary" . }}
-        </div>
+            <a href="{{ .Permalink }}" class="btn btn-secondary">{{ .Title }}</a>
         {{ end }}
     </div>
 </main>

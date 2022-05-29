@@ -2,25 +2,28 @@
 <section id="main">
     <div>
         <h1>{{.Title}}</h1>
-        <span class="subtitle text-muted fw-light fs-5">
-            {{.ReadingTime}} min | {{ .Date.Format "Mon Jan 2, 2006" }}
-        </span>
-        <div class="my-4 d-flex justify-content-between">
-            <div>
-                {{ with .PrevInSection }}
-                <a class="btn btn-sm btn-outline-secondary" href="{{.Permalink}}"><i class="fa-solid fa-angle-left"></i> {{.Title}}</a> 
-                {{ end }}
-                {{ with .NextInSection }}
-                <a class="btn btn-sm btn-outline-secondary" href="{{.Permalink}}">{{.Title}} <i class="fa-solid fa-angle-right"></i></a>
-                {{ end }}
+        <div class="text-muted row">
+            <div class="col-auto">
+                <span class="fw-light">Created : </span> {{ .Date.Format "02/01/2006" }}
             </div>
-            <div>
-                {{ with .Params.tags }}
+            <div class="col-auto">
+                <span class="fw-light">Last modified : </span> {{ .Lastmod.Format "02/01/2006" }}
+            </div>
+            <div class="col-auto">
+                <span class="fw-light">Read time : </span> {{.ReadingTime}} min
+            </div>
+        </div>
+        <div class="my-4">
+            {{ with .Params.categories }}
+                {{ range . }}
+                <a href="{{ "categories" | absURL }}/{{ . | urlize }}" class="btn btn-sm  btn-primary">{{ . }}</a>
+                {{ end }}
+            {{ end }}
+            {{ with .Params.tags }}
                 {{ range . }}
                 <a href="{{ "tags" | absURL }}/{{ . | urlize }}" class="btn btn-sm  btn-secondary">#{{ . }}</a>
                 {{ end }}
-                {{ end }}
-            </div>
+            {{ end }}
         </div>
     </div>
 
