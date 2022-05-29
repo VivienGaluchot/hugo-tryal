@@ -26,10 +26,17 @@
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarMain">
-                    <div></div>
-                    <ul class="navbar-nav">
+                    <ul class="navbar-nav me-auto">
                         {{ $currentPage := . }}
                         {{ range .Site.Menus.main }}
+                        <li class="nav-item"><a class="nav-link{{if or ($currentPage.IsMenuCurrent "main" .)
+                                ($currentPage.HasMenuCurrent "main" .) }} active{{end}}" href="{{ .URL }}"
+                                title="{{ .Title }}">{{ .Name }}</a></li>
+                        {{ end }}
+                    </ul>
+                    <ul class="navbar-nav">
+                        {{ $currentPage := . }}
+                        {{ range .Site.Menus.main_right }}
                         <li class="nav-item"><a class="nav-link{{if or ($currentPage.IsMenuCurrent "main" .)
                                 ($currentPage.HasMenuCurrent "main" .) }} active{{end}}" href="{{ .URL }}"
                                 title="{{ .Title }}">{{ .Name }}</a></li>

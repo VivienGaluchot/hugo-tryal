@@ -2,7 +2,7 @@
 title: "Posts"
 menu:
   main:
-    weight: 0
+    weight: 1
 ---
 
 Liste des posts

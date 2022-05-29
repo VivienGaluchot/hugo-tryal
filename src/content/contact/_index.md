@@ -1,8 +1,8 @@
 ---
 title: "Contact"
 menu:
-  main:
-    weight: 100
+  main_right:
+    weight: 2
 ---
 
 Page de contact !

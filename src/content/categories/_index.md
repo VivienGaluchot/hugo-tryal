@@ -2,7 +2,7 @@
 title: "Categories"
 menu:
   main:
-    weight: 101
+    weight: 3
 ---
 
 List of page categories
