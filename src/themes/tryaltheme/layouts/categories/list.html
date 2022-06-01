@@ -1,16 +1,17 @@
 {{ define "main" }}
-<main aria-role="main">
+<main>
     <div>
-        <h1>{{.Title}}</h1>
-        <span class="subtitle text-muted fw-light fs-5">{{.Params.subtitle}}</span>
+        <h1>Category | <b>{{.Title}}</b></h1>
+        {{ with .Params.subtitle }}
+        <span>{{.}}</span>
+        {{ end }}
     </div>
-
     <div class="my-4">
         {{.Content}}
     </div>
     <div class="my-5">
-        <h2>Last content published</h2>
-        {{ range first 3 .Site.RegularPages }}
+        <b>X</b> pages
+        {{ range .Pages }}
         <div class="my-3">
             {{ partial  "card_summary" . }}
         </div>

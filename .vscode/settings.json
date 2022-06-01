@@ -2,5 +2,12 @@
     "editor.formatOnSave": true,
     "[html]": {
         "editor.formatOnSave": false,
-    }
+    },
+    "terminal.integrated.profiles.linux": {
+        "bash": {
+            "path": "bash",
+            "icon": "terminal-bash"
+        }
+    },
+    "terminal.integrated.defaultProfile.linux": "bash",
 }

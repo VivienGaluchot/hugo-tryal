@@ -5,6 +5,6 @@ menu:
     weight: 2
 ---
 
-Page de contact !
+Contact page.
 
-Rien de special ici.
+You can reach me at ...

@@ -2,33 +2,24 @@
 <section id="main">
     <div>
         <h1>{{.Title}}</h1>
-        <div class="text-muted row">
-            <div class="col-auto">
-                <span class="fw-light">Created : </span> {{ .Date.Format "02/01/2006" }}
-            </div>
-            <div class="col-auto">
-                <span class="fw-light">Last modified : </span> {{ .Lastmod.Format "02/01/2006" }}
-            </div>
-            <div class="col-auto">
-                <span class="fw-light">Read time : </span> {{.ReadingTime}} min
-            </div>
+        <div class="my-3 row">
+            {{ partial "categories" . }}
+            {{ partial "tags" . }}
         </div>
-        <div class="my-4">
-            {{ with .Params.categories }}
-                {{ range . }}
-                <a href="{{ "categories" | absURL }}/{{ . | urlize }}" class="btn btn-sm  btn-primary">{{ . }}</a>
-                {{ end }}
-            {{ end }}
-            {{ with .Params.tags }}
-                {{ range . }}
-                <a href="{{ "tags" | absURL }}/{{ . | urlize }}" class="btn btn-sm  btn-secondary">#{{ . }}</a>
-                {{ end }}
-            {{ end }}
+        <div class="my-3 text-muted row">
+            <div class="col">
+                Read time <b>{{.ReadingTime}} min</b>
+            </div>
+            <div class="col-auto">
+                {{ .Date.Format "02/01/2006" }}
+            </div>
         </div>
     </div>
 
-    <div class="my-5">
-        {{.Content}}
-    </div>
+    <div class="card">
+        <div class="card-body">
+            {{.Content}}
+        </div>
+      </div>
 </section>
 {{ end }}

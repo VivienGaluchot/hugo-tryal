@@ -2,7 +2,7 @@ baseURL: 'http://example.org/'
 languageCode: 'en-us'
 title: 'Hugo tryal'
 theme: 'tryaltheme'
-enableGitInfo: true
+# enableGitInfo: true
 taxonomies:
     category: categories
     tag: tags
