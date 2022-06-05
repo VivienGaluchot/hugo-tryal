@@ -10,7 +10,13 @@
         {{.Content}}
     </div>
     <div class="my-5">
-        <b>X</b> pages
+        <b>{{ len .Pages }}</b>
+        {{ if gt (len .Pages) 1 }}
+            {{ "pages" | pluralize }}
+        {{ else }}
+            page
+        {{ end }}
+    
         {{ range .Pages }}
         <div class="my-3">
             {{ partial  "card_summary" . }}

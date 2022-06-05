@@ -6,3 +6,33 @@ body {
 .stretched-card:hover {
     box-shadow: 0 0 0 .25rem rgba(130, 138, 145, .1);
 }
+
+.card-summary-top {
+    max-height: 15rem;
+    object-fit: cover;
+}
+
+.full-width {
+    width: 100vw;
+    position: relative;
+    left: 50%;
+    right: 50%;
+    margin-left: -50vw;
+    margin-right: -50vw;
+}
+
+.header-imgs {
+    display: grid;
+    grid-template-columns: 1fr .5fr;
+    grid-gap: .2rem;
+}
+
+.header-imgs img {
+    height: 100%;
+    object-fit: cover;
+    width: 100%;
+}
+
+.header-imgs>*:nth-child(1) {
+    grid-row: span 2;
+}

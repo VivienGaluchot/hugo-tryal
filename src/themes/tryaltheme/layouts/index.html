@@ -5,9 +5,12 @@
         <span class="subtitle text-muted fw-light fs-5">{{.Params.subtitle}}</span>
     </div>
 
-    <div class="my-4">
+    <div class="my-5">
         {{.Content}}
     </div>
+
+    <hr>
+
     <div class="my-5">
         <h2>Last content published</h2>
         {{ range first 3 .Site.RegularPages }}
