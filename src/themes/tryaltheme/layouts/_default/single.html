@@ -36,8 +36,22 @@
         </div>
     {{ end }}
     
+
     <div class="my-5">
+        {{ if .Params.shop }}
+        <div class="row">
+            <div class="col">
+                {{.Content}}
+            </div>
+            <div class="col-auto">
+                <a class="btn btn-primary" href="{{ .Params.shop.link }}" target="_blank">
+                    <i class="fa-solid fa-bag-shopping"></i> {{ .Params.shop.price }}
+                </a>
+            </div>
+        </div>
+        {{ else }}
         {{.Content}}
+        {{ end }}
     </div>
 </main>
 {{ end }}
