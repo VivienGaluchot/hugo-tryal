@@ -4,7 +4,7 @@
         <div class="row gx-2">
             {{ range . }}
             <div class="col-auto">
-                <a href="{{ "categories" | absURL }}/{{ . | urlize }}" class="font-monospace link-info">{{ . }}</a>
+                <a href="{{ "categories" | absURL }}/{{ . | urlize }}" class="taxo-link taxo-category">{{ . }}</a>
             </div>
             {{ end }}
         </div>
@@ -15,7 +15,7 @@
         <div class="row gx-2">
             {{ range . }}
             <div class="col-auto">
-                <a href="{{ "tags" | absURL }}/{{ . | urlize }}" class="font-monospace link-secondary">{{ . }}</a>
+                <a href="{{ "tags" | absURL }}/{{ . | urlize }}" class="taxo-link taxo-tag">{{ . }}</a>
             </div>
             {{ end }}
         </div>

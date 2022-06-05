@@ -1,12 +1,10 @@
-<div class="card">
+<div class="card a-card" data-href="{{ .Permalink }}">
     {{ if .Params.header_imgs }}
         {{ $page := .Page }}
-        <a href="{{ .Permalink }}">
-            {{ range first 1 .Params.header_imgs }}
-            {{ $src := $page.Resources.GetMatch (. | safeURL)  }}
-            {{ partial "render-image" (dict "src" $src "class" "img-fluid card-summary-top card-img-top") }}
-            {{ end }}
-        </a>
+        {{ range first 1 .Params.header_imgs }}
+        {{ $src := $page.Resources.GetMatch (. | safeURL)  }}
+        {{ partial "render-image" (dict "src" $src "class" "img-fluid card-summary-top card-img-top") }}
+        {{ end }}
     {{ end }}
 
     <div class="card-body">
@@ -17,7 +15,7 @@
                 </h5>
             </div>
             <div class="col-auto">
-                {{ if .Draft }}<span class="badge rounded-pill bg-info">draft</span>{{ end }}
+                {{ if .Draft }}<span class="badge rounded-pill bg-warning text-dark">draft</span>{{ end }}
             </div>
             <div class="col-auto text-muted fw-lighter">
                 {{ .Date.Format "02/01/2006" }}
@@ -28,6 +26,6 @@
             {{ partial "taxonomy" . }}
         </div>
         <p class="card-text">{{ .Summary }}</p>
-        <a class="card-link btn btn-primary" href="{{ .Permalink }}">See more</a>
+        <a class="card-link" href="{{ .Permalink }}">See more</a>
     </div>
 </div>
