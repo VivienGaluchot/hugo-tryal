@@ -1,0 +1,24 @@
+<div class="row">
+    {{ with .Params.categories }}
+    <div class="col-auto">
+        <div class="row gx-2">
+            {{ range . }}
+            <div class="col-auto">
+                <a href="{{ "categories" | absURL }}/{{ . | urlize }}" class="font-monospace link-info">{{ . }}</a>
+            </div>
+            {{ end }}
+        </div>
+    </div>
+    {{ end }}
+    {{ with .Params.tags }}
+    <div class="col-auto">
+        <div class="row gx-2">
+            {{ range . }}
+            <div class="col-auto">
+                <a href="{{ "tags" | absURL }}/{{ . | urlize }}" class="font-monospace link-secondary">{{ . }}</a>
+            </div>
+            {{ end }}
+        </div>
+    </div>
+    {{ end }}
+</div>

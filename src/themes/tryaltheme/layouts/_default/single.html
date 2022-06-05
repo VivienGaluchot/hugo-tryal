@@ -2,10 +2,12 @@
 <main>
     <div>
         <h1>{{.Title}}</h1>
-        <div class="my-3 row">
-            {{ partial "categories" . }}
-            {{ partial "tags" . }}
-        </div>
+        {{ with .Params.subtitle }}
+        <span class="text-muted">{{.}}</span>
+        {{ end }}
+    </div>
+
+    <div class="my-4">
         <div class="my-3 text-muted row">
             <div class="col">
                 Read time <b>{{.ReadingTime}} min</b>
@@ -16,6 +18,9 @@
             <div class="col-auto">
                 {{ .Date.Format "02/01/2006" }}
             </div>
+        </div>
+        <div class="my-3">
+            {{ partial "taxonomy" . }}
         </div>
     </div>
 

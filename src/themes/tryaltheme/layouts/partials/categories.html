@@ -1,7 +1,0 @@
-{{ with .Params.categories }}
-<div class="col-auto">
-    {{ range . }}
-    <a href="{{ "categories" | absURL }}/{{ . | urlize }}" class="btn btn-sm btn-outline-primary btn-category">{{ . }}</a>
-    {{ end }}
-</div>
-{{ end }}

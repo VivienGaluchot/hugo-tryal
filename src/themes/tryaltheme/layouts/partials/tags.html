@@ -1,7 +1,0 @@
-{{ with .Params.tags }}
-<div class="col-auto">
-    {{ range . }}
-    <a href="{{ "tags" | absURL }}/{{ . | urlize }}" class="btn btn-sm btn-outline-dark btn-tag">{{ . }}</a>
-    {{ end }}
-</div>
-{{ end }}
