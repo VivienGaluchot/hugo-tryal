@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>dowg on Hugo tryal</title>
-    <link>http://example.org/categories/dowg/</link>
+    <link>https://viviengaluchot.github.io/hugo-tryal/public/categories/dowg/</link>
     <description>Recent content in dowg on Hugo tryal</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 27 May 2022 21:08:11 +0000</lastBuildDate><atom:link href="http://example.org/categories/dowg/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 27 May 2022 21:08:11 +0000</lastBuildDate><atom:link href="https://viviengaluchot.github.io/hugo-tryal/public/categories/dowg/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Hello world !</title>
-      <link>http://example.org/posts/hello-world/</link>
+      <link>https://viviengaluchot.github.io/hugo-tryal/public/posts/hello-world/</link>
       <pubDate>Fri, 27 May 2022 21:08:11 +0000</pubDate>
       
-      <guid>http://example.org/posts/hello-world/</guid>
+      <guid>https://viviengaluchot.github.io/hugo-tryal/public/posts/hello-world/</guid>
       <description>&lt;p&gt;This is a first post.&lt;/p&gt;
 &lt;p&gt;Indeed.&lt;/p&gt;</description>
     </item>

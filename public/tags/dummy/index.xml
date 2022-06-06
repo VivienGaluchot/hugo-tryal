@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>dummy on Hugo tryal</title>
-    <link>http://example.org/tags/dummy/</link>
+    <link>https://viviengaluchot.github.io/hugo-tryal/public/tags/dummy/</link>
     <description>Recent content in dummy on Hugo tryal</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 27 May 2022 22:55:09 +0000</lastBuildDate><atom:link href="http://example.org/tags/dummy/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 27 May 2022 22:55:09 +0000</lastBuildDate><atom:link href="https://viviengaluchot.github.io/hugo-tryal/public/tags/dummy/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Second article</title>
-      <link>http://example.org/posts/second-world/</link>
+      <link>https://viviengaluchot.github.io/hugo-tryal/public/posts/second-world/</link>
       <pubDate>Fri, 27 May 2022 22:55:09 +0000</pubDate>
       
-      <guid>http://example.org/posts/second-world/</guid>
+      <guid>https://viviengaluchot.github.io/hugo-tryal/public/posts/second-world/</guid>
       <description>This is a second post.
 Indeed.
 Lorem Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Pellentesque eu tincidunt tortor aliquam nulla facilisi cras fermentum odio.</description>
@@ -20,10 +20,10 @@ Lorem Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod te
     
     <item>
       <title>Hello world !</title>
-      <link>http://example.org/posts/hello-world/</link>
+      <link>https://viviengaluchot.github.io/hugo-tryal/public/posts/hello-world/</link>
       <pubDate>Fri, 27 May 2022 21:08:11 +0000</pubDate>
       
-      <guid>http://example.org/posts/hello-world/</guid>
+      <guid>https://viviengaluchot.github.io/hugo-tryal/public/posts/hello-world/</guid>
       <description>&lt;p&gt;This is a first post.&lt;/p&gt;
 &lt;p&gt;Indeed.&lt;/p&gt;</description>
     </item>

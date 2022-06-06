@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>shorties on Hugo tryal</title>
-    <link>http://example.org/tags/shorties/</link>
+    <link>https://viviengaluchot.github.io/hugo-tryal/public/tags/shorties/</link>
     <description>Recent content in shorties on Hugo tryal</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 28 May 2022 21:20:16 +0000</lastBuildDate><atom:link href="http://example.org/tags/shorties/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 28 May 2022 21:20:16 +0000</lastBuildDate><atom:link href="https://viviengaluchot.github.io/hugo-tryal/public/tags/shorties/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Short article</title>
-      <link>http://example.org/posts/short-article/</link>
+      <link>https://viviengaluchot.github.io/hugo-tryal/public/posts/short-article/</link>
       <pubDate>Sat, 28 May 2022 21:20:16 +0000</pubDate>
       
-      <guid>http://example.org/posts/short-article/</guid>
+      <guid>https://viviengaluchot.github.io/hugo-tryal/public/posts/short-article/</guid>
       <description>This is a short post.
 Indeed.</description>
     </item>

@@ -2,57 +2,57 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://example.org/categories/</loc>
+    <loc>https://viviengaluchot.github.io/hugo-tryal/public/categories/</loc>
     <lastmod>2022-06-05T15:07:09+00:00</lastmod>
   </url><url>
-    <loc>http://example.org/categories/fruit/</loc>
+    <loc>https://viviengaluchot.github.io/hugo-tryal/public/categories/fruit/</loc>
     <lastmod>2022-06-05T15:07:09+00:00</lastmod>
   </url><url>
-    <loc>http://example.org/</loc>
+    <loc>https://viviengaluchot.github.io/hugo-tryal/public/</loc>
     <lastmod>2022-06-05T15:07:09+00:00</lastmod>
   </url><url>
-    <loc>http://example.org/tags/pomme/</loc>
+    <loc>https://viviengaluchot.github.io/hugo-tryal/public/tags/pomme/</loc>
     <lastmod>2022-06-05T15:07:09+00:00</lastmod>
   </url><url>
-    <loc>http://example.org/shop/pomme-rouge/</loc>
+    <loc>https://viviengaluchot.github.io/hugo-tryal/public/shop/pomme-rouge/</loc>
     <lastmod>2022-06-05T15:07:09+00:00</lastmod>
   </url><url>
-    <loc>http://example.org/shop/</loc>
+    <loc>https://viviengaluchot.github.io/hugo-tryal/public/shop/</loc>
     <lastmod>2022-06-05T15:07:09+00:00</lastmod>
   </url><url>
-    <loc>http://example.org/tags/</loc>
+    <loc>https://viviengaluchot.github.io/hugo-tryal/public/tags/</loc>
     <lastmod>2022-06-05T15:07:09+00:00</lastmod>
   </url><url>
-    <loc>http://example.org/tags/bifbof/</loc>
+    <loc>https://viviengaluchot.github.io/hugo-tryal/public/tags/bifbof/</loc>
     <lastmod>2022-05-28T21:20:16+00:00</lastmod>
   </url><url>
-    <loc>http://example.org/posts/</loc>
+    <loc>https://viviengaluchot.github.io/hugo-tryal/public/posts/</loc>
     <lastmod>2022-05-28T21:20:16+00:00</lastmod>
   </url><url>
-    <loc>http://example.org/posts/short-article/</loc>
+    <loc>https://viviengaluchot.github.io/hugo-tryal/public/posts/short-article/</loc>
     <lastmod>2022-05-28T21:20:16+00:00</lastmod>
   </url><url>
-    <loc>http://example.org/tags/shorties/</loc>
+    <loc>https://viviengaluchot.github.io/hugo-tryal/public/tags/shorties/</loc>
     <lastmod>2022-05-28T21:20:16+00:00</lastmod>
   </url><url>
-    <loc>http://example.org/tags/tagc/</loc>
+    <loc>https://viviengaluchot.github.io/hugo-tryal/public/tags/tagc/</loc>
     <lastmod>2022-05-28T21:20:16+00:00</lastmod>
   </url><url>
-    <loc>http://example.org/tags/dummy/</loc>
+    <loc>https://viviengaluchot.github.io/hugo-tryal/public/tags/dummy/</loc>
     <lastmod>2022-05-27T22:55:09+00:00</lastmod>
   </url><url>
-    <loc>http://example.org/posts/second-world/</loc>
+    <loc>https://viviengaluchot.github.io/hugo-tryal/public/posts/second-world/</loc>
     <lastmod>2022-05-27T22:55:09+00:00</lastmod>
   </url><url>
-    <loc>http://example.org/categories/cat-1/</loc>
+    <loc>https://viviengaluchot.github.io/hugo-tryal/public/categories/cat-1/</loc>
     <lastmod>2022-05-27T21:08:11+00:00</lastmod>
   </url><url>
-    <loc>http://example.org/categories/dowg/</loc>
+    <loc>https://viviengaluchot.github.io/hugo-tryal/public/categories/dowg/</loc>
     <lastmod>2022-05-27T21:08:11+00:00</lastmod>
   </url><url>
-    <loc>http://example.org/posts/hello-world/</loc>
+    <loc>https://viviengaluchot.github.io/hugo-tryal/public/posts/hello-world/</loc>
     <lastmod>2022-05-27T21:08:11+00:00</lastmod>
   </url><url>
-    <loc>http://example.org/contact/</loc>
+    <loc>https://viviengaluchot.github.io/hugo-tryal/public/contact/</loc>
   </url>
 </urlset>

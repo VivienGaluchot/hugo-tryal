@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>fruit on Hugo tryal</title>
-    <link>http://example.org/categories/fruit/</link>
+    <link>https://viviengaluchot.github.io/hugo-tryal/public/categories/fruit/</link>
     <description>Recent content in fruit on Hugo tryal</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 05 Jun 2022 15:07:09 +0000</lastBuildDate><atom:link href="http://example.org/categories/fruit/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 05 Jun 2022 15:07:09 +0000</lastBuildDate><atom:link href="https://viviengaluchot.github.io/hugo-tryal/public/categories/fruit/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Pomme rouge</title>
-      <link>http://example.org/shop/pomme-rouge/</link>
+      <link>https://viviengaluchot.github.io/hugo-tryal/public/shop/pomme-rouge/</link>
       <pubDate>Sun, 05 Jun 2022 15:07:09 +0000</pubDate>
       
-      <guid>http://example.org/shop/pomme-rouge/</guid>
+      <guid>https://viviengaluchot.github.io/hugo-tryal/public/shop/pomme-rouge/</guid>
       <description>Pommes qui sont rouges.
 Provenance direct de Mars, livraison sous 10 jous.
 Sans pepins Sans marsicyde </description>
