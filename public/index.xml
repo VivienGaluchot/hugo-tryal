@@ -8,6 +8,25 @@
     <language>en-us</language>
     <lastBuildDate>Sun, 05 Jun 2022 15:07:09 +0000</lastBuildDate><atom:link href="https://viviengaluchot.github.io/hugo-tryal/public/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Header imgs article</title>
+      <link>https://viviengaluchot.github.io/hugo-tryal/public/posts/header_imgs-article/</link>
+      <pubDate>Sun, 05 Jun 2022 15:07:09 +0000</pubDate>
+      
+      <guid>https://viviengaluchot.github.io/hugo-tryal/public/posts/header_imgs-article/</guid>
+      <description>This is an post with header pictures.
+Nothing to say about it &amp;hellip;</description>
+    </item>
+    
+    <item>
+      <title>Picture article</title>
+      <link>https://viviengaluchot.github.io/hugo-tryal/public/posts/picture-article/</link>
+      <pubDate>Sun, 05 Jun 2022 15:07:09 +0000</pubDate>
+      
+      <guid>https://viviengaluchot.github.io/hugo-tryal/public/posts/picture-article/</guid>
+      <description>This is an post with a picture included.</description>
+    </item>
+    
+    <item>
       <title>Pomme rouge</title>
       <link>https://viviengaluchot.github.io/hugo-tryal/public/shop/pomme-rouge/</link>
       <pubDate>Sun, 05 Jun 2022 15:07:09 +0000</pubDate>
