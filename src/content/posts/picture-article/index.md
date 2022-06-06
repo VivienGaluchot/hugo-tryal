@@ -1,7 +1,7 @@
 ---
 title: "Picture article"
 date: 2022-06-05T15:07:09Z
-draft: true
+draft: false
 tags: ["picture"]
 ---
 
