@@ -10,11 +10,13 @@
         {{.Content}}
     </div>
     <div class="my-5">
-        <b>{{ len .Pages }}</b>
-        {{ if gt (len .Pages) 1 }}
-            {{ "pages" | pluralize }}
-        {{ else }}
-            page
+        {{ if gt (len .Pages) 0 }}
+            <b>{{ len .Pages }}</b>
+            {{ if gt (len .Pages) 1 }}
+                {{ "pages" | pluralize }}
+            {{ else }}
+                page
+            {{ end }}
         {{ end }}
         
         {{ range .Pages }}
