@@ -1,4 +1,4 @@
-name: containers
+name: hugo
 
 on:
   push:
@@ -7,8 +7,8 @@ on:
       - int/**
 
 jobs:
-  build-dev:
-    name: build dev container
+  build:
+    name: build hugo
     runs-on: ubuntu-latest
     steps:
     - name: Checkout
