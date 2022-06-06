@@ -1,5 +1,8 @@
 # Hugo tryal
 
+Demo at [https://viviengaluchot.github.io/hugo-tryal/public/](https://viviengaluchot.github.io/hugo-tryal/public/).
+
+
 # Dev container
 
 ## Setup
