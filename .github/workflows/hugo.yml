@@ -1,6 +1,12 @@
 name: hugo
 
 on:
+  workflow_dispatch:
+    inputs:
+      deploy:
+        description: 'Deploy'
+        required: false 
+        type: boolean
   push:
     branches:
       - master
@@ -8,14 +14,19 @@ on:
 
 jobs:
   build:
-    name: build hugo
+    name: build and deploy
     runs-on: ubuntu-latest
     steps:
     - name: Checkout
       uses: actions/checkout@v3
     
-    - name: Hugo build
-      uses: klakegg/actions-hugo@1.0.0
-      with:
-        source: src/
+    - name: Install hugo
+      run: wget https://github.com/gohugoio/hugo/releases/download/v0.100.1/hugo_0.100.1_Linux-64bit.deb && sudo apt install ./hugo_0.100.1_Linux-64bit.deb && rm hugo_0.100.1_Linux-64bit.deb
+
+    - name: Build hugo
+      run: ./build_prod.sh
+
+    - name: Deploy hugo
+      if: ${{ github.ref == 'refs/heads/master' || github.event.inputs.tags }}
+      run: ./deploy.sh
 
