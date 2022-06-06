@@ -1,7 +1,7 @@
 {{ define "main" }}
 <main>
     <div>
-        <h1>Tag | <b>{{.Title}}</b></h1>
+        <h1>{{ .Type | title | singularize }} | <b>{{ .Title }}</b></h1>
         {{ with .Params.subtitle }}
         <span>{{.}}</span>
         {{ end }}
@@ -16,7 +16,7 @@
         {{ else }}
             page
         {{ end }}
-
+    
         {{ range .Pages }}
         <div class="my-3">
             {{ partial  "card_summary" . }}
